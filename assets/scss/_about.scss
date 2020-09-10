@@ -1,0 +1,18 @@
+
+
+.about-area {
+
+  .about-img {
+
+    @media #{$md} {
+      margin-bottom: 50px;
+    }
+    @media #{$xs} {
+      margin-bottom: 50px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

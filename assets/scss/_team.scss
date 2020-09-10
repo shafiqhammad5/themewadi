@@ -1,0 +1,82 @@
+
+
+.team-area {
+
+  .single-team {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+
+    &:hover {
+      .info {
+        opacity: 1;
+        visibility: visible;
+        h4 ,
+        span,
+        .social {
+          opacity: 1;
+          visibility: visible;
+          @include transform(translateX(0));
+        }
+      }
+    }
+
+    .image {
+      
+      img {
+        width: 100%;
+      }
+    }
+
+    .info {
+      position: absolute;
+      width: 80%;
+      bottom: 0;
+      left: 0;
+      background: rgba($white, .8);
+      padding: 20px 30px;
+      opacity: 0;
+      visibility: hidden;
+      @include transition(.3s);
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.2s);
+        @include transform(translateX(-50%));
+      }
+
+      span {
+        font-size: 14px;
+        color: $heading-color;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.3s);
+        @include transform(translateX(-50%));
+      }
+
+      .social {
+        display: flex;
+        margin-top: 10px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.4s);
+        @include transform(translateX(-50%));
+
+        li {
+          margin-right: 15px;
+
+          a {
+            color: $theme-color;
+            border-radius: 4px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,103 @@
+
+
+
+.service-area {
+
+  .single-service {
+    position: relative;
+    padding: 60px 50px;
+    background: $white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    @media #{$lg} {
+      padding: 50px 25px;
+    }
+    @media #{$xs} {
+      padding: 50px 25px;
+    }
+
+    &:hover {
+      .hover-content-wrapper {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    .media-content {
+      display: flex;
+      align-items: center;
+
+      @media #{$xs} {
+        flex-direction: column;
+      }
+
+      .icon {
+        
+        i {
+          background-image: $gradient-1;
+          background-size: 200% auto;
+          overflow: hidden;
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 50px;
+          color: $white;
+        }
+
+      }
+
+      .content {
+        margin-left: 30px;
+
+        @media #{$xs} {
+          margin-left: 0;
+          margin-top: 30px;
+          text-align: center;
+        }
+
+        h4 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .hover-content-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: $gradient-3;
+      overflow: hidden;
+      background-size: 200% auto;
+      padding: 30px;
+      text-align: center;
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include transition(.3s);
+
+      p {
+        color: $border-color;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: $white;
+        font-size: 20px;
+        font-weight: 600;
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}

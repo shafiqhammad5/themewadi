@@ -1,0 +1,10 @@
+<svg id="hero-bg-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="934.793" viewBox="0 0 1920 934.793">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="-0.112" y2="0.045" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e82ef"/>
+      <stop offset="1" stop-color="#361cc1"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_3" data-name="Path 3" d="M0,843.915H1920V268.139S1254.8-32.009,774.8-85.585,0,231.615,0,231.615Z" transform="translate(0 90.878)" fill="#2e82ef" opacity="0.12"/>
+  <path id="Path_2" data-name="Path 2" d="M0,911.345H1920V348.3S1243.848,58.91,763.849,5.335,0,319.362,0,319.362Z" transform="translate(0 23.449)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,40 @@
+// Font Family
+$font: 'Montserrat', sans-serif;
+
+
+// Colors ---------------
+$white: #fff;
+$black: #222;
+$gray: #F3FDFF;
+$body-bg: #F4F7FC;
+
+
+// Theme Color
+$theme-color: #fe6e9a;
+$theme-color-2: #119bd2;
+
+$border-color: #e0dada;
+
+//Body Color
+$body-color: #65677E;
+
+
+// Heading Color
+$heading-color: #1d1e1f;
+
+
+// Gradients color
+$gradient-1 : linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+$gradient-2 : linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+$gradient-3 : linear-gradient(to right, #361cc1 0%,#2e82ef 50%, #361cc1 100%);
+
+
+// Responsive Variables
+$desktop: 'only screen and (min-width: 1400px)';
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 480px) and (max-width: 767px)';
+
+

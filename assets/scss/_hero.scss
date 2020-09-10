@@ -1,0 +1,41 @@
+
+
+.hero-area {
+  background-position: bottom center;
+
+  .hero-content-wrapper {
+    padding-top: 270px;
+    padding-bottom: 200px;
+
+    @media #{$md} {
+      padding-top: 180px;
+      padding-bottom: 50px;
+    }
+    @media #{$xs} {
+      padding-top: 180px;
+      padding-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: $theme-color;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: $white;
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: $border-color;
+      margin-bottom: 30px;
+    }
+  }
+  .hero-img {
+    img {
+      width: 100%;
+    }
+  }
+}
